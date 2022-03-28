@@ -18,7 +18,7 @@ int main()
     int i = 0;
     int num = 0;
     std::cin >> i;
-    while ( i != 1)
+    while (i != 1)
     {
         if (i % 2)// 奇数
             i = (3 * i + 1) / 2;
