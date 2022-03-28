@@ -32,3 +32,8 @@ int main()
     std::cout << pa + pb << std::endl;
     return 0;
 }
+
+// given solution from github by `liuchuo-`
+// string a;
+// for (int i = 0; i < a.length(); i++)
+//         if (da == (a[i] - '0')) pa = pa * 10 + da;
