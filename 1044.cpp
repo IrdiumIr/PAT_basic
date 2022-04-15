@@ -16,7 +16,7 @@ void func1(int i)// i<169 i/13=0-12 i%13=0-12
         std::cout << high_arr[i / 13];
     if ((i / 13) && (i % 13))
         std::cout << " ";
-    // if (i % 13 || i == 0)
+    if (i % 13 || i == 0)
         std::cout << low_arr[i % 13];
 }
 void func2(std::string &s)
