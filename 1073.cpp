@@ -8,5 +8,5 @@
 
 int main()
 {
-    
+    printf("edit by workstation");
 }
